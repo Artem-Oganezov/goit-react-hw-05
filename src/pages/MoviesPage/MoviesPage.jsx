@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import MovieList from "../../components/MovieList/MovieList";
-import { fetchMoviesName } from "../../services/Api";
+import { fetchMoviesName } from "../../services/api";
 import toast from "react-hot-toast";
 import s from "./MoviesPage.module.css";
 import { ScaleLoader } from "react-spinners";

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import MovieList from "../../components/MovieList/MovieList";
-import { fetchMovies } from "../../services/Api";
+import { fetchMovies } from "../../services/api";
 import { ScaleLoader } from "react-spinners";
 import s from "./HomePage.module.css";
 
